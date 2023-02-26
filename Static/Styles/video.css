@@ -1,0 +1,47 @@
+.myvideo {
+    height: 108vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myvideo video {
+    height: 108vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    margin-top: 80px;
+    z-index: 1;
+}
+
+.video-text {
+    z-index: 2;
+    color: azure;
+}
+.video-text .maintext br {
+  display: none;
+}
+.video-text .maintext {
+    font-size: 70px;
+    animation: h1anim 7s ease 0s 1 normal forwards;
+}
+@keyframes h1anim {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@media(max-width:850px) {
+    .video-text .maintext br {
+        display: initial;
+        line-height: 1.5;
+      }
+}

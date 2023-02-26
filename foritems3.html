@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Tracks - Chairs</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Julee">
+
+    <link rel="stylesheet" href="Static/Styles/style.css">
+    <link rel="stylesheet" href="Static/Styles/foritems.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="Static/Favicon/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Static/Favicon/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Static/Favicon/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="Static/Favicon/favicon_io/site.webmanifest">
+    <link rel="manifest" href="Static/Favicon/favicon_io">
+
+    <style>
+        .abouttext p {
+            font-family: 'Julee', serif;
+        }
+    </style>
+
+</head>
+<body>
+</head>
+<body>
+    <header role="banner">
+        <nav role="navigation">
+          <button class="burgerbtn">&#9776;</button>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <div>
+                            Home
+                            <span>Escape the city routine</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="Products.html">
+                        <div>
+                            Products
+                            <span>Badass tools </span>
+                        </div>
+                    </a>
+                    <div>
+                        <ul>
+                            <li><a href="tents.html">Tents</a></li>
+                            <li><a href="sleepingbags.html">Sleeping bags</a></li>
+                            <li><a href="Chairsandtables.html">Camp chairs <br>and tables</a></li>
+                            <li><a href="flashlights.html">Lanterns and flashlights</a></li>
+                            <li><a href="kayaks.html">Kayaks</a></li>
+                            <li><a href="coolers.html">Coolers</a></li>
+                   
+                        
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="Contact us.html">
+                        <div>
+                            Contact us
+                            <span>drop us a line</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                  <a href="other.html">
+                      <div>
+                          Other
+                          <span>This is interesting!</span>
+                      </div>
+                  </a>
+                  <div>
+                      <ul>
+                          <li><a href="cars.html">Best cars for adventures</a></li>
+                          <li><a href="campingspots.html">Best spots</a></li>
+                          <li><a href="events.html">Events we've been to</a></li>
+                          <li><a href="bestadvice.html">Best camping advice</a></li>
+                      </ul>
+                  </div>
+              </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2 class="chairss">CAMPING CHAIR</h2>
+
+        <div class="allscreen">
+            <div class="col-lg-6">
+                 <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+        <img src="Static/IMG/foritems3.html" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+        <img src="Static/IMG/foritems33.webp" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+        <img src="Static/IMG/foritems333.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+        <img src="Static/IMG/foritems3333.jpg" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="Static/IMG/foritems3.html" style="width:100%" onclick="currentSlide(1)" alt="Camping chair">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Static/IMG/foritems33.webp" style="width:100%" onclick="currentSlide(2)" alt="Camping chair">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Static/IMG/foritems333.jpg" style="width:100%" onclick="currentSlide(3)" alt="Camping chair">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Static/IMG/foritems3333.jpg" style="width:100%" onclick="currentSlide(4)" alt="Camping chair">
+      </div>
+    </div>
+  </div> 
+            </div>
+
+            <div class="col-lg-6">
+                <p style="padding-left: 40px; padding-right: 250px; margin-top: 45px; text-align: justify;">Comfortable, affordable and compact camping chair in stock! Come pick up or order online! Several colours available. Chairs are made from quality material so they can withstand harsh weather conditions. You will definitely not be disappointed if you choose this one! If you are looking for different type of chairs, check <a href="Chairsandtables.html">these</a> out!</p>
+                <button class="foritembuy">Book now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="pic">
+          <img class="footerimg" src="Static/IMG/footer.png" alt="">
+        </div>
+      </footer>
+      
+    <script>
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+} 
+    </script>
+
+</body>
